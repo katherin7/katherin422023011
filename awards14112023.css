@@ -130,9 +130,10 @@ div.gallery {
   float: left;
   width: 180px;
   align-items: center;
-  margin-left: 65px;
+  margin-left: 100px;
   margin-top: 30px;
 }
+
 div.gallery2 {
   margin: 5px;
   border: 1px solid #ccc;
