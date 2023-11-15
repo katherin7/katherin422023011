@@ -73,6 +73,18 @@ body{color: purple;
 			   backdrop-filter: blur(10px);
 
 			}
+		header2{
+			   top : 40px;
+			   left: 0;
+			   width: 100%;
+			   padding: 30px 20px;
+			   display: flex;
+			   justify-content: space-between;
+			   align-items: center;
+			   backdrop-filter: blur(10px);
+
+			}
+
 
 		h2{ padding-top: 30px; }
 
@@ -119,7 +131,7 @@ body{color: purple;
 				   height: 100px;
 				   background-color: #FFF;
 				   margin: 30px;
-				   margin-right: 60px;
+				   margin-right: 23px;
 					padding: 45px 15px;
 					display: flex;
 					flex-direction: column;

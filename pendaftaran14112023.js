@@ -1,5 +1,5 @@
-alert("selamat anda berhasil masuk")
-prompt("masukan bias favoritmu")
+alert("Selamat Anda Berhasil Masuk")
+prompt("Masukan Bias Favoritmu")
 
 function validasi() {
 		var nama = document.getElementById("nama").value;
