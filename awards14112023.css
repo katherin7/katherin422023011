@@ -1,0 +1,165 @@
+ul{
+	list-style: none;
+	text-align: right;
+	padding: 0;
+
+}
+
+.icon {float: left;
+		 
+}
+
+
+.icon > h2 { margin:0;
+}
+ 
+li{font-size: 16px;
+	padding: 15px 25px;
+	display: inline-block}
+
+.icon.dekstop{ font-size:20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default;}
+.icon.mobile{background-color: pink;
+			 color:white; 
+			 font-size: 36;
+
+			}
+
+.mobile {display: none;
+		text-align: center; 
+		
+		 }
+@media only screen and (max-width:500px)
+{ .mobile { display:block; }
+  .dekstop {display: none;}
+  .dekstop.mobile{ display: block; } 
+  }
+
+body{		 color: purple;
+			 background-image: url(https://humas.sambas.go.id/wp-content/uploads/2017/09/Background-Putih.jpg) ;
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 width: 100%;
+			 height: 100%;
+}
+.logo { font-size:20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default; }
+
+		:root {--text-color: pink;
+				--bg-color: black ;
+				--main-color: black;
+				
+				--h1-font : 6rem;
+				--h2-font : 3rem;
+				--p-font  : 1.5rem;}
+
+		span { color:var(--main-color); }
+
+
+		header{position: fixed;
+			   top : 10px;
+			   left: 0;
+			   width: 100%;
+			   padding: 0px 10px;
+			   display: flex;
+			   justify-content: space-between;
+			   align-items: center;
+			   backdrop-filter: blur(8px);
+
+			}
+
+		.navbar{ list-style:none;
+		 display:flex;
+		 text-align:center;
+		 margin-top:5px; }
+
+		 .navbar2{ margin-top:-100px; }
+
+
+		.navbar a {color: var(--text-color);
+				   font-size: var(--p-font);
+					font-weight: 500;
+					margin: 10px 10px;
+					transition: all .5 ease;
+					text-decoration: none;}
+
+		.navbar a:hover {color: var(--main-color);
+						 padding-right: 10px;}
+
+		.follow { display: flex;
+				  align-items: center;
+				  padding-right: 30px;
+		}
+
+		.follow a:first-child {color: var(--text-color);
+								font-size: var(--p-font);
+								margin-right: 20px;}
+		.follow a{
+			vertical-align: middle;
+			font-size: 20px;
+			color: var(--main-color);
+			margin: 10px 15px;
+			margin-right: 18px;
+			margin-left: 60px;
+			transition: all .20s ease;
+		}
+
+		.follow a:hover { color:var(--main-color);
+						  padding-right: 10px; }
+
+.awards{ 
+								background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/indizone/2023/03/14/Z8s41Do/review-lagu-twice-set-me-free-plus-mv-semakin-mature-dengan-groovy-edm-visual-no-debat89.jpg) ;
+			background-size: cover;
+			background-position: center;
+      background-repeat: no-repeat;
+    		margin-top: 110px;
+    		}
+h3{ color:white; }
+h4{font-size: 1.3rem;
+}
+p{color: white;}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-items: center;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+div.gallery2 {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+div.gallery2 img {
+  width: 100%;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
+

@@ -1,0 +1,107 @@
+ul{
+	list-style: none;
+	text-align: right;
+	padding: 0;
+
+}
+
+.icon {float: left;
+		 
+}
+
+.icon > h2 { margin:0;
+}
+ 
+li{font-size: 16px;
+	padding: 15px 25px;
+	display: inline-block}
+
+.icon.dekstop{ font-size:20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default;}
+.mobile {display: none;
+		 }
+
+.icon.mobile{background-color: pink;
+			 color:white; 
+			 font-size: 36;}
+
+@media only screen and (max-width:500px)
+{ .mobile { display:block; }
+  .dekstop {display: none;}
+  .dekstop.mobile{ display: block; } 
+  }
+
+.logo { font-size:20px;
+				color: var(--text-color);
+				font-weight:300;
+				text-decoration:none;
+				cursor:default; }
+
+		:root {--text-color: pink;
+				--bg-color: black ;
+				--main-color: black;
+				
+				--h1-font : 6rem;
+				--h2-font : 3rem;
+				--p-font  : 1.5rem}
+
+		span { color:var(--main-color); }
+
+
+		header{position: fixed;
+			   top : 10px;
+			   left: 0;
+			   width: 100%;
+			   padding: 0px 20px;
+			   display: flex;
+			   justify-content: space-between;
+			   align-items: center;
+			   backdrop-filter: blur(10px);
+
+			}
+
+		h2{ padding-top:30px; }
+
+		.navbar{display: flex;
+				list-style: none;}
+
+
+		.navbar a {color: var(--text-color);
+				   font-size: var(--p-font);
+					font-weight: 500;
+					margin: 10px 10px;
+					transition: all .5 ease;
+					text-decoration: none;}
+
+		.navbar a:hover {color: var(--main-color);
+						 padding-right: 10px;}
+
+		.follow { display: flex;
+				  align-items: center;
+				  padding-right: 30px;
+		}
+
+		.follow a:first-child {color: var(--text-color);
+								font-size: var(--p-font);
+								margin-right: 20px;}
+		.follow a{
+			vertical-align: middle;
+			font-size: 20px;
+			color: var(--main-color);
+			margin: 10px 15px;
+			margin-right: 18px;
+			margin-left: 60px;
+			transition: all .20s ease;
+		}
+
+		.follow a:hover { color:var(--main-color);
+						  padding-right: 10px; }
+
+		section{padding: 90px 20px 30px;}
+
+		img {
+			border-radius: 20px;
+		}
